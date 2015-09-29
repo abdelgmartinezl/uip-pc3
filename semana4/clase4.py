@@ -26,4 +26,4 @@ while intentos < 6:
 if chance == numero:
     print("Buen trabajo, {0}. Adivinastes en {1} intentos.".format(nombre, intentos))
 else:
-    print("No. El numero que estaba pensando era {0}.".format(number))
+    print("No. El numero que estaba pensando era {0}.".format(numero))
