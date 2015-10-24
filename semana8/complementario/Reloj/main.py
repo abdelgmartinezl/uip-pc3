@@ -4,15 +4,15 @@ from kivy.clock import Clock
 
 import time
 
-class IncrediblyCrudeClock(Label):
+class Reloj(Label):
     def update(self, *args):
         self.text = time.asctime()
 
-class TimeApp(App):
+class TiempoApp(App):
     def build(self):
-        crudeclock = IncrediblyCrudeClock()
-        Clock.schedule_interval(crudeclock.update, 1)
-        return crudeclock
+        reloj = Reloj()
+        Clock.schedule_interval(reloj.update, 1)
+        return reloj
 
 if __name__ == "__main__":
-    TimeApp().run()
+    TiempoApp().run()
