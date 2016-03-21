@@ -1,18 +1,15 @@
 # TAREA
 
-*Fecha de Revisión*: 20/09/2015
+*Fecha de Revisión*: 11/04/2016
 
 ## Instrucciones:
-Crear un repositorio llamado *uip-prog3* con la siguiente estructura de directorios y archivos:
+Crear un repositorio llamado *uip-pc3-portfolio* con la siguiente estructura inicial de directorios y archivos:
 
 ```
 uip-prog3
 |- README.md
 |- LICENSE
-|- parciales
-|- investigaciones
-|- laboratorios
-\- tareas
+\- labs
 ```
 
 El archivo LICENSE debe contener lo siguiente:
@@ -40,13 +37,11 @@ El archivo README.md debe contener lo siguiente:
 ```
 # Programación de Computadoras III - UIP
 
-* *Autor*: Abdel Martinez
+* *Autor*: Juan Pérez
 * *Versión*: 1.0
 
-Incluye una descripción.
+Mi portafolio de programas hechos en Python para la clase de Programación de Computadoras III de la Universidad Interamericana de Panamá.
 
 ## Licencia
 MIT License
 ```
-
-Finalmente, deben clonar el reposiorio *ampotty/uip-pc3* para tener disponible todo el material del curso.
