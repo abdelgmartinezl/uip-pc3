@@ -42,5 +42,11 @@ Ofrecer al alumno una visión general del lenguaje Python, introduciéndole en
 - Investigaciones (6): 30%
 - Laboratorios (6):    20%
 
+---
+
+**Curso:**
+
+Aprende a Programar con Python: http://python.edu2.co
+
 ## Licencia
 El código de este repositorio está bajo la licencia MIT (ver archivo LICENSE) y la documentación, bajo la licencia Creative Commons (CC-BY-SA-3.0).
