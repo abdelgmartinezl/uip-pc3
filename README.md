@@ -6,9 +6,13 @@
 
 **Horario del Curso:** Lunes, 7:15PM a 10:20PM
 
+
+
 **Descripción del Curso:**
 
 Aprendizaje y práctica de un lenguaje de programación de alto nivel siguiendo diferentes metodologías.
+
+
 
 **Objetivo del Curso:**
 
