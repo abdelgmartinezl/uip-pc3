@@ -1,10 +1,8 @@
 # PROGRAMACIÓN DE COMPUTADORAS III
 
-**Profesor:** Abdel G. Martínez L.
-
-**Correo Electrónico:** abdel_martinez@uip.edu.pa
-
-**Horario del Curso:** Lunes, 7:15PM a 10:20PM
+- **Profesor:** Abdel G. Martínez L.
+- **Correo Electrónico:** abdel_martinez@uip.edu.pa
+- **Horario del Curso:** Lunes, 7:15PM a 10:20PM
 
 ---
 
@@ -39,14 +37,10 @@ Ofrecer al alumno una visión general del lenguaje Python, introduciéndole en
 ---
 
 **Evaluación:**
-
-Examen Final:        30%
-
-Parcial:             20%
-
-Investigaciones (6): 30%
-
-Laboratorios (6):    20%
+- Examen Final:        30%
+- Parcial:             20%
+- Investigaciones (6): 30%
+- Laboratorios (6):    20%
 
 ## Licencia
 El código de este repositorio está bajo la licencia MIT (ver archivo LICENSE) y la documentación, bajo la licencia Creative Commons (CC-BY-SA-3.0).
