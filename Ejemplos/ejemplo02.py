@@ -1,4 +1,3 @@
-# CLASE 4
 # Autor: Abdel G. Martinez L.
 #
 # Instrucciones: Crear programa donde el usuario adivine un numero previamente dado.

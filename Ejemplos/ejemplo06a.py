@@ -1,4 +1,3 @@
-# CLASE 7
 # Autor: Abdel G. Martinez L.
 
 import Cliente as c

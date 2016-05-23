@@ -1,4 +1,3 @@
-# CLASE 5
 # Autor: Abdel G. Martinez L.
 #
 # Instrucciones: Dada una lista de numeros positivos, retornar el numero mas grande de la lista

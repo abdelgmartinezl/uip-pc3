@@ -1,4 +1,3 @@
-# CLASE 6
 # Autor: Abdel G. Martinez L.
 #
 # Instrucciones: Simular un directorio telefonico

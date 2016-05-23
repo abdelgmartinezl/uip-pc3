@@ -1,4 +1,3 @@
-# CLASE 3
 # Autor: Abdel G. Martinez L.
 #
 # Instrucciones: Calcular el monto final que debe pagar Analida
