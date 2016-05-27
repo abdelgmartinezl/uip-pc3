@@ -20,7 +20,7 @@ Ofrecer al alumno una visión general del lenguaje Python, introduciéndole en
 | ------ | --------------------------------------------------------- | ------------------ |
 | 9 MAY  | Presentación del curso                                    |                    |
 | 16 MAY | Introducción a Python; Manejo de repositorios             | Laboratorio No.1   |
-| 23 MAY | Variables; Decisiones; Ciclos; Tipos de datos             | Investigación No.1 |
+| 23 MAY | Variables; Decisiones; Ciclos; Tipos de datos; Licencias  | Investigación No.1 |
 | 30 MAY | Colecciones; Funciones; Excepciones                       | Laboratorio No.2   |
 | 6 JUN  | Entrada y salida de ficheros; Módulos                     | Investigación No.2 |
 | 13 JUN | Programación orientada a objetos                          | Laboratorio No.3   |
