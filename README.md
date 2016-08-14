@@ -38,7 +38,7 @@ Ofrecer al alumno una visión general del lenguaje Python, introduciéndole en
 
 **Evaluación:**
 - Examen Final:        30%
-- Laboratorios (12):   20%
+- Laboratorios (12):   70%
 
 ---
 
