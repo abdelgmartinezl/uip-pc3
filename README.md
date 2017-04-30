@@ -42,7 +42,7 @@ Ofrecer al alumno una visión general del lenguaje Python, introduciéndole en
 
 ---
 
-**Curso:**
+**Curso: (Obsoleto)**
 
 Aprende a Programar con Python: http://python.edu2.co
 
