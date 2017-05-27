@@ -1,8 +1,8 @@
 import math as mah
-from decorators import int_transformer
+from decorators import dtype_int
 
 
-@int_transformer
+@dtype_int
 def seconds(ms):
     """
     Calcula milisegundo(s) a segundo(s)
@@ -13,7 +13,8 @@ def seconds(ms):
     """
     return ms / 1000
 
-@int_transformer
+
+@dtype_int
 def minutes(s):
     """
     Calcula segundo(s) a minutos(s)
@@ -24,6 +25,8 @@ def minutes(s):
     """
     return s / 60
 
+
+@dtype_int
 def hours(m):
     """
     Calcula minuto(s) a hora(s)
@@ -35,6 +38,7 @@ def hours(m):
     return mah.floor(m / 60)
 
 
+@dtype_int
 def days(hr):
     """
     Calcula hora(s) a dia(s)
