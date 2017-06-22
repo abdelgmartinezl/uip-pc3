@@ -1,4 +1,5 @@
 from model.Participante import Participante
+import re
 
 if __name__ == "__main__":
     listaParticipantes = []
@@ -15,7 +16,12 @@ if __name__ == "__main__":
 
         if opc == 1:
             print("\nINGRESAR PARTICIPANTE")
-            nombre = input("Nombre: ") #FALTA VALIDAR
+            while (True):
+                nombre = input("Nombre y Apellido: ")
+                if re.search("^[A-Z][a-z]*(\s[A-Z][a-z]*)?$", nombre):
+                    break
+                else:
+                    print("ERROR :: Nombre no valido")
             while (True):
                 try:
                     edad = int(input("Edad: "))
@@ -34,7 +40,21 @@ if __name__ == "__main__":
             participante = Participante(nombre, edad, sexo)
             listaParticipantes.append(participante)
         elif opc == 2:
+            masculino = 0
+            femenino = 0
+            mayoredad = 0
             print("\nVER ESTADISTICAS")
+            print("Total de Participantes: " + str(len(listaParticipantes)))
+            for p in listaParticipantes:
+                if p.get_sexo() == "M":
+                    masculino += 1
+                else:
+                    femenino += 1
+                if p.get_edad() >= 18:
+                    mayoredad += 1
+            print("Total de Hombres: " + str(masculino))
+            print("Total de Mujeres: " + str(femenino))
+            print("Total de Mayores de Edad: " + str(mayoredad))
         elif opc == 3:
             print("\nVER TODOS")
             for p in listaParticipantes:
