@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h3>Estudiantes - Ejemplo de SQLAlchemy</h3>
+<hr/>
+{%- for categoria, mensaje in get_flashed_messages(with_categories=true)  %}
+<div class="alert alert-danger">
+    {{ mensaje }}
+</div>
+{%- endfor %}
+
+<form action="{{ request.path }}" method="post">
+    <label>Nombre</label>
+    <input type="text" name="nombre" placeholder="nombre"><br>
+    <label>Ciudad</label>
+    <input type="text" name="ciudad" placeholder="ciudad"><br>
+    <label>Direccion</label>
+    <input type="text" name="direccion" placeholder="direccion"><br>
+    <label>Pin</label>
+    <input type="text" name="pin" placeholder="pin"><br>
+    <input type="submit" value="Enviar">
+</form>
+</body>
+</html>

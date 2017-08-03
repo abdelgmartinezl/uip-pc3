@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tabla de Calificaciones</title>
+</head>
+<body>
+<table>
+    {% for key, value in r.items() %}
+    <tr>
+        <th> {{ key }} </th>
+        <td> {{ value }} </td>
+    </tr>
+    {% endfor %}
+    <tr>
+        <th> Promedio Final </th>
+        <th> {{ promedio }} </th>
+    </tr>
+</table>
+</body>
+</html>
