@@ -17,4 +17,8 @@ if __name__ == "__main__":
     viejo = "".join(lista_letras)
     print(viejo)
 
-    print("Petra, RRHH, 5000".split(", "))
+    print("Petra RRHH 5000".split(" "))
+    print(palabra_magica.split(", "))
+
+    lista_letras.reverse()
+    print("".join(lista_letras))
