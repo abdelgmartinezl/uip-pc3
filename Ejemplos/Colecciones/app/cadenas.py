@@ -16,3 +16,5 @@ if __name__ == "__main__":
     lista_letras = ['a', 'b', 'u', 'e', 'l', 'a']
     viejo = "".join(lista_letras)
     print(viejo)
+
+    print("Petra, RRHH, 5000".split(", "))
