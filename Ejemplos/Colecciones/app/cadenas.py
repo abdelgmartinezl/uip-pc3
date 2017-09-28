@@ -12,3 +12,7 @@ if __name__ == "__main__":
 
     letras = list(palabra_magica)
     print(letras)
+
+    lista_letras = ['a', 'b', 'u', 'e', 'l', 'a']
+    viejo = "".join(lista_letras)
+    print(viejo)
