@@ -24,3 +24,6 @@ if __name__ == '__main__':
         print(color)
 
     print("En total son " + str(sum(canicas.values())) + " canicas.")
+
+    for llave,valor in canicas:
+        print("Canica " + llave + ": " + str(valor))
