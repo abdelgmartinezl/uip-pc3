@@ -9,3 +9,6 @@ if __name__ == "__main__":
     letra = input("Ingrese una letra: ")
     if letra in palabra_magica:
         print(palabra_magica.index(letra))
+
+    letras = list(palabra_magica)
+    print(letras)
