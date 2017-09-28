@@ -13,5 +13,6 @@ if __name__ == '__main__':
     print("Ahora tengo " + str(canicas['rojo']) + " rojas.")
 
     nuevo_color = input("Que color de canica compraste: ")
-    nuevas = int(input("Cuantas canicas " + nuevo_color + " son:"))
+    nuevas = int(input("Cuantas canicas " + nuevo_color + " son: "))
     canicas[nuevo_color] = nuevas
+    print(canicas)
