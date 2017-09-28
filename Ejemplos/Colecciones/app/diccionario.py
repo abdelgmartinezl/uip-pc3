@@ -19,3 +19,5 @@ if __name__ == '__main__':
 
     for color in canicas.keys():
         print(color)
+
+    print("En total son " + str(sum(canicas.values())) + " canicas.")
