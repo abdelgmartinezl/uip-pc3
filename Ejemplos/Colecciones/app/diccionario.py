@@ -25,5 +25,8 @@ if __name__ == '__main__':
 
     print("En total son " + str(sum(canicas.values())) + " canicas.")
 
-    for llave,valor in canicas:
+    for llave,valor in canicas.items():
         print("Canica " + llave + ": " + str(valor))
+
+    #canicas['xxx'] = {"color": "misigno", "peso": 50.6, "medidas": [1,2,3]}
+    #print(canicas)
