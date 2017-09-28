@@ -7,3 +7,7 @@ if __name__ == '__main__':
         print("Yo tengo" + str(canicas['azul']) + " azules.")
     except:
         print("No hay canicas azules.")
+
+    nuevas = int(input("Cuantas canicas rojas compraste: "))
+    canicas['rojo'] += nuevas
+    print("Ahora tengo " + str(canicas['rojo']) + " rojas.")
