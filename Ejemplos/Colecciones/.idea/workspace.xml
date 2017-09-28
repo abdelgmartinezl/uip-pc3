@@ -31,11 +31,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rangos.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="rangos.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/rangos.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="319">
               <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cadenas.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/cadenas.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -56,6 +66,7 @@
         <option value="$PROJECT_DIR$/app/diccionario.py" />
         <option value="$PROJECT_DIR$/app/matrices.py" />
         <option value="$PROJECT_DIR$/app/rangos.py" />
+        <option value="$PROJECT_DIR$/app/cadenas.py" />
       </list>
     </option>
   </component>
@@ -112,7 +123,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.rangos">
+  <component name="RunManager" selected="Python.cadenas">
+    <configuration name="cadenas" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Colecciones" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/cadenas.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="diccionario" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -164,16 +192,18 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python.diccionario" />
       <item index="1" class="java.lang.String" itemvalue="Python.matrices" />
       <item index="2" class="java.lang.String" itemvalue="Python.rangos" />
+      <item index="3" class="java.lang.String" itemvalue="Python.cadenas" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.rangos" />
-        <item index="1" class="java.lang.String" itemvalue="Python.matrices" />
-        <item index="2" class="java.lang.String" itemvalue="Python.diccionario" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.cadenas" />
+        <item index="1" class="java.lang.String" itemvalue="Python.rangos" />
+        <item index="2" class="java.lang.String" itemvalue="Python.matrices" />
+        <item index="3" class="java.lang.String" itemvalue="Python.diccionario" />
       </list>
     </recent_temporary>
   </component>
@@ -195,6 +225,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="5" y="193" width="1260" height="783" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15793651" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -264,6 +295,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="319">
           <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/cadenas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
           <folding />
         </state>
       </provider>
