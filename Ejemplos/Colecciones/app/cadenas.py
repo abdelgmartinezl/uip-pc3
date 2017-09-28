@@ -21,4 +21,4 @@ if __name__ == "__main__":
     print(palabra_magica.split(", "))
 
     lista_letras.reverse()
-    print("".join(lista_letras))
+    print("-".join(lista_letras))
