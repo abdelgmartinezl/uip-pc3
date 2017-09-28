@@ -30,3 +30,6 @@ if __name__ == '__main__':
 
     #canicas['xxx'] = {"color": "misigno", "peso": 50.6, "medidas": [1,2,3]}
     #print(canicas)
+
+    print(", ".join(canicas.keys()))
+    print("\n".join(canicas.keys()))
