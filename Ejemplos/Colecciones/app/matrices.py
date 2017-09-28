@@ -8,3 +8,7 @@ if __name__ == "__main__":
         for columna in fila:
             print(columna*5)
 
+    mi_cubo = [[[1,2], [3,4]],[[5,6],[7,8]]]
+    print(mi_cubo)
+    print(mi_cubo[0][1][0])
+
