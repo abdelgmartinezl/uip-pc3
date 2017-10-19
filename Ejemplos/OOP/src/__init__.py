@@ -12,3 +12,8 @@ class Cliente(object):
     def depositar(self, cantidad):
         self.saldo += cantidad
         return self.saldo
+
+if __name__ == '__main__':
+    petra = Cliente('Petra Petrov', 1000.0)
+    print("Quien es el mejor cliente?")
+    print(petra.nombre + " con $" + str(petra.saldo))
