@@ -1,8 +1,10 @@
+from abc import abstractmethod
+
 class Vehiculo(object):
     precio_base = 0.0
+    llantas = 0
 
-    def __init__(self, llantas, kilometros, marca, modelo, anio, vendido):
-        self.llantas = llantas
+    def __init__(self, kilometros, marca, modelo, anio, vendido):
         self.kilometros = kilometros
         self.marca = marca
         self.modelo = modelo
@@ -19,24 +21,22 @@ class Vehiculo(object):
             return 0.0
         return self.precio_base - (.10 * self.kilometros)
 
+    @abstractmethod
+    def tipo_vehiculo(self):
+        pass
+
 
 class Carro(Vehiculo):
-    def __init__(self, llantas, kilometros, marca, modelo, anio, vendido):
-        self.llantas = llantas
-        self.kilometros = kilometros
-        self.marca = marca
-        self.modelo = modelo
-        self.anio = anio
-        self.vendido = vendido
-        self.precio_base = 5000
+    precio_base = 5000
+    llantas = 4
+
+    def tipo_vehiculo(self):
+        return 'carro'
 
 
 class Camion(object):
-    def __init__(self, llantas, kilometros, marca, modelo, anio, vendido):
-        self.llantas = llantas
-        self.kilometros = kilometros
-        self.marca = marca
-        self.modelo = modelo
-        self.anio = anio
-        self.vendido = vendido
-        self.precio_base = 8000
+    precio_base = 8000
+    llantas = 18
+
+    def tipo_vehiculo(self):
+        return 'camion'
