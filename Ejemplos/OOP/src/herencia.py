@@ -34,9 +34,16 @@ class Carro(Vehiculo):
         return 'carro'
 
 
-class Camion(object):
+class Camion(Vehiculo):
     precio_base = 8000
     llantas = 18
 
     def tipo_vehiculo(self):
         return 'camion'
+
+class Busito(Vehiculo):
+    precio_base = 6000
+    llantas = 4
+
+    def tipo_vehiculo(self):
+        return 'busito'
