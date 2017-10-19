@@ -13,3 +13,5 @@ if __name__ == '__main__':
     camaro = Carro('Chevrolet', 'Camaro')
     print(camaro.llantas)
     print(Carro.llantas)
+    camaro.pitar()
+    Carro.pitar()
