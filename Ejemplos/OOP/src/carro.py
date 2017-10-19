@@ -5,6 +5,7 @@ class Carro(object):
         self.marca = marca
         self.modelo = modelo
 
+    @staticmethod
     def pitar():
         print("Zgschhfd Zgschhfd")
 
