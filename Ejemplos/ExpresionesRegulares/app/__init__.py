@@ -1,10 +1,11 @@
 
 import re
 
-patron = 'cas'
-palabra1 = 'ccasa'
+patron = 'p.|c|java|rb|php|js'
+palabras = ['jpg', 'ps', 'rb', 'py', 'exe', 'js']
 
-if re.match(patron, palabra1):
-    print("La palabra1 " + palabra1 + " cumple.")
-else:
-    print("La palabra1 " + palabra1 + " no cumple.")
+for palabra in palabras:
+    if re.match(patron, palabra):
+        print("La palabra " + palabra + " cumple.")
+    else:
+        print("La palabra " + palabra + " no cumple.")
