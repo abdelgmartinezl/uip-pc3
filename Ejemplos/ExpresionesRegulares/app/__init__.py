@@ -1,8 +1,8 @@
 
 import re
 
-patron = 'p.|c|java|rb|php|js'
-palabras = ['jpg', 'ps', 'rb', 'py', 'exe', 'js']
+patron = 'ra(..|...)ta'
+palabras = ['ratata', 'rapero', 'raqueta', 'rata']
 
 for palabra in palabras:
     if re.match(patron, palabra):
