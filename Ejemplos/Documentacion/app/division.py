@@ -28,6 +28,6 @@ def division(dividendo, divisor):
 if __name__ == "__main__":
     print("Divide y Venceras")
     d1 = float(input("Dividendo: ")) #: d1 dividendo
-    d2 = float(input("Divisor: ")) #: d2 divisor
+    d2 = float(input("Dividisplasor: ")) #: d2 divisor
     r = division(d1, d2) #: r resultado
     print(str(d1) + "/" + str(d2) + "=" + str(r))
