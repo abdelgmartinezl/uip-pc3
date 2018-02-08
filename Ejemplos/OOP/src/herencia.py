@@ -40,6 +40,10 @@ class Camion(Vehiculo):
 
     def tipo_vehiculo(self):
         return 'camion'
+    
+    def xxx(self):
+        print(self.precio_venta())
+        print(super().precio_venta())
 
 class Busito(Vehiculo):
     precio_base = 6000
@@ -47,3 +51,11 @@ class Busito(Vehiculo):
 
     def tipo_vehiculo(self):
         return 'busito'
+
+
+if __name__ == "__main__":
+    x = Camion(50000, "Scania", "LBS141", 2000, None)
+    print(x.precio_venta())
+    x.xxx()
+    # x = Carro(50000, "Honda", "Civic", 2016, None)
+    # print(x.precio_venta())

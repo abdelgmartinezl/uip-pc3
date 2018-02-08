@@ -1,5 +1,5 @@
 class Carro(object):
-    llantas = 4
+    __llantas = 4
 
     def __init__(self, marca, modelo):
         self.marca = marca
@@ -8,10 +8,15 @@ class Carro(object):
     @staticmethod
     def pitar():
         print("Zgschhfd Zgschhfd")
+    
+    def checar_llantas(self):
+        return self.__llantas
 
 if __name__ == '__main__':
     camaro = Carro('Chevrolet', 'Camaro')
-    print(camaro.llantas)
-    print(Carro.llantas)
+    #print(camaro.__llantas)
+    #print(Carro.llantas)
     camaro.pitar()
     Carro.pitar()
+    print(camaro.checar_llantas())
+    #print(Carro.checar_llantas())
