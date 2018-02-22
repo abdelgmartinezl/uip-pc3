@@ -18,7 +18,7 @@ for palabra in palabras:
     else:
         print("La palabra " + palabra + " no cumple.")
 
-patron = '[A-Za-z][6-9a-z].\.exe'
+patron = '[A-Za-z][6-9a-z]..\.exe'
 palabras = ['A7a.exe', 'tns.exe', 'X1..exe']
 
 for palabra in palabras:
@@ -37,8 +37,7 @@ for palabra in palabras:
         print("La palabra " + palabra + " no cumple.")
 
 patron = '[A-Z][a-z]+\s[A-Z](\.|[a-z]+)'
-palabras = ['Abdel M.', 'Abdel M', 'Abdel Martinez', 'Abdulah Ramadahzunzo.di'
-                                                     '']
+palabras = ['Abdel M.', 'Abdel M', 'Abdel Martinez', 'Abdulah Ramadahzunzo']
 
 for palabra in palabras:
     if re.match(patron, palabra):
