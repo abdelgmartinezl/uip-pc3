@@ -12,5 +12,7 @@ if __name__ == '__main__':
             print(dia)
 
 
-    ruta2 = 'pereza.txt'
-    
+    ruta2 = 'Ejemplos/ejemplo36/pereza.txt'
+    archivo_pereza = open(ruta2, 'w')
+    archivo_pereza.write("Tengo pereza")
+    archivo_pereza.write("Espero que el prof termine temprano")
