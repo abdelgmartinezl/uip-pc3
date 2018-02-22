@@ -31,3 +31,10 @@ if __name__ == '__main__':
     for p in palabras:
         if re.match('r(..|...|....)a', p):
             print(p)
+
+    codigo = ['pa1', 'cr2', 'gt3', 'pa4', 'cr7']
+    for c in codigo:
+        if re.match('..[2-5]', c):
+            print("Chumbulum!", c)
+    
+    
