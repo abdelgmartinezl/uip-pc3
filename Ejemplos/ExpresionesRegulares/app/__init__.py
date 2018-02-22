@@ -1,4 +1,3 @@
-
 import re
 
 patron = '[0-7]'
