@@ -18,4 +18,16 @@ if __name__ == '__main__':
     if re.match('\.png', '.png'):
         print("Imagen PNG")
 
-    
+    extensiones = ['doc', 'xls', 'ppt', 'mp3', 'flv']
+    for tipo in extensiones:
+        if re.match('doc|xls|ppt', tipo):
+            print("Billete para Microsoft")
+        elif re.match('mp3', tipo):
+            print("Billete para Spotify")
+        else:
+            print("Habla!")
+
+    palabras = ['rata', 'rampa', 'rasca', 'chino']
+    for p in palabras:
+        if re.match('r(..|...|....)a', p):
+            print(p)
