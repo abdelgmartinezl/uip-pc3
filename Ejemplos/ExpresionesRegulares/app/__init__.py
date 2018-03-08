@@ -37,7 +37,7 @@ for palabra in palabras:
         print("La palabra " + palabra + " no cumple.")
 
 patron = '[A-Z][a-z]+\s[A-Z](\.|[a-z]+)'
-palabras = ['Abdel M.', 'Abdel M', 'Abdel Martinez', 'Abdulah Ramadahzunzo']
+palabras = ['Abdel M.', 'Abdel M', 'Abdel Martinez', 'Abdulah R.dfadfas']
 
 for palabra in palabras:
     if re.match(patron, palabra):
