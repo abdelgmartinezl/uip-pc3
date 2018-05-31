@@ -37,8 +37,15 @@ while True:
     if opcion == 'N' or opcion == 'n':
         break
 
+venta_maxima = max([x['venta'] for x in lista_vendedores])
 print("\nLista de Vendedores: ")
 for x in lista_vendedores:
     print(str("- " + x["nombre"]))
     ventas_globales += float(x["venta"])
+    if x['venta'] == venta_maxima:
+        nm = x['nombre']
 print("Ventas Globales:", str(ventas_globales))
+
+print("Venta Maxima de $" + str(venta_maxima) + ", realizada por " + nm)
+
+
