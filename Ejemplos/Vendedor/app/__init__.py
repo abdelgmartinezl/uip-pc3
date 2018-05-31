@@ -5,6 +5,9 @@ print('''VENDESOFT 1.0
          Y no tienes que pagar ningun centavo!
       ''')
 
+ventas_globales = 0.0
+lista_vendedores = []
+
 while True:
     nombre = input("\nNombre: ") # Dale pue
     while True:
@@ -25,6 +28,12 @@ while True:
     else:
         print("Que haces aqui? DESPEDIDO!")
 
+    lista_vendedores.append(nombre)
+    ventas_globales += venta_mensual
+
     opcion = input("Desea continuar (S/N)?")
     if opcion == 'N' or opcion == 'n':
         break
+
+print("Lista de Vendedores: " + str(lista_vendedores))
+print("Ventas Globales:", str(ventas_globales))
