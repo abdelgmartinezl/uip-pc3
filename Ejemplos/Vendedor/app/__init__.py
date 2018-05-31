@@ -9,6 +9,7 @@ ventas_globales = 0.0
 lista_vendedores = []
 
 while True:
+    registro = {}
     nombre = input("\nNombre: ") # Dale pue
     while True:
         try:
@@ -28,7 +29,10 @@ while True:
     else:
         print("Que haces aqui? DESPEDIDO!")
 
-    lista_vendedores.append(nombre)
+    registro["nombre"] = nombre
+    registro["venta"] = venta_mensual
+    print(registro)
+    lista_vendedores.append(registro)
     ventas_globales += venta_mensual
 
     opcion = input("Desea continuar (S/N)?")
