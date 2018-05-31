@@ -32,7 +32,6 @@ while True:
     registro["nombre"] = nombre
     registro["venta"] = venta_mensual
     lista_vendedores.append(registro)
-    ventas_globales += venta_mensual
 
     opcion = input("Desea continuar (S/N)?")
     if opcion == 'N' or opcion == 'n':
@@ -41,4 +40,5 @@ while True:
 print("\nLista de Vendedores: ")
 for x in lista_vendedores:
     print(str("- " + x["nombre"]))
+    ventas_globales += float(x["venta"])
 print("Ventas Globales:", str(ventas_globales))
