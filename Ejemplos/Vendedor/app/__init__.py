@@ -7,7 +7,12 @@ print('''VENDESOFT 1.0
 
 while True:
     nombre = input("\nNombre: ") # Dale pue
-    venta_mensual = float(input('Venta Mensual: '))
+    while True:
+        try:
+            venta_mensual = float(input('Venta Mensual: '))
+            break
+        except:
+            print("Tas metiendo demencia... Vivo!")
 
     if venta_mensual > 100_000.00:
         print("Eres un vendedor estrella!!!")
